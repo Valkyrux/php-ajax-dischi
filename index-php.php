@@ -13,10 +13,12 @@
 </head>
 
 <body>
-    <?php include_once __DIR__ . '/components/header.php'; ?>
-    <main>
-    </main>
-    <?php include_once __DIR__ . '/components/footer.php'; ?>
+    <div class="container">
+        <?php include_once __DIR__ . '/components/header.php'; ?>
+        <main>
+        </main>
+        <?php include_once __DIR__ . '/components/footer.php'; ?>
+    </div>
 </body>
 
 </html>
