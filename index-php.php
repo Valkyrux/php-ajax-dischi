@@ -16,6 +16,9 @@
     <div class="container">
         <?php include_once __DIR__ . '/components/header.php'; ?>
         <main>
+            <div class="main-container">
+                <?php include_once __DIR__ . '/components/cards-php.php'; ?>
+            </div>
         </main>
         <?php include_once __DIR__ . '/components/footer.php'; ?>
     </div>
